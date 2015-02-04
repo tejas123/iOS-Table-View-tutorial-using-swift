@@ -16,14 +16,13 @@ class DetailViewController: UIViewController
 //        // Custom initialization
 //    }
     
-    var index: Int? = nil
-    @IBOutlet var ivDisplayImage : UIImageView
+    var strImageName: String!
+    @IBOutlet var ivDisplayImage : UIImageView?
     override func viewDidLoad()
     {
         
         super.viewDidLoad()
-        let strImageName="\(index).jpg"
-        self.ivDisplayImage.image=UIImage(named : "\(index).jpg")
+        self.ivDisplayImage?.image=UIImage(named : "\(strImageName)")
         // Do any additional setup after loading the view.
     }
 

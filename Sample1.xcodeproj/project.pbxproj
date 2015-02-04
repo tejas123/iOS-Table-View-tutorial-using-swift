@@ -11,7 +11,7 @@
 		EAA0B41C1977818800B63DB5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4141977818800B63DB5 /* 1.jpg */; };
 		EAA0B41D1977818800B63DB5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4151977818800B63DB5 /* 2.jpg */; };
 		EAA0B41E1977818800B63DB5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4161977818800B63DB5 /* 3.jpg */; };
-		EAA0B41F1977818800B63DB5 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4171977818800B63DB5 /* 4.png */; };
+		EAA0B41F1977818800B63DB5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4171977818800B63DB5 /* 4.jpg */; };
 		EAA0B4201977818800B63DB5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4181977818800B63DB5 /* 5.jpg */; };
 		EAA0B4211977818800B63DB5 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B4191977818800B63DB5 /* 6.jpg */; };
 		EAA0B4221977818800B63DB5 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAA0B41A1977818800B63DB5 /* 7.jpg */; };
@@ -21,8 +21,7 @@
 		EAC1143B196E62680051FFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC11439196E62680051FFDB /* Main.storyboard */; };
 		EAC1143D196E62680051FFDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC1143C196E62680051FFDB /* Images.xcassets */; };
 		EAC11449196E62680051FFDB /* Sample1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC11448196E62680051FFDB /* Sample1Tests.swift */; };
-		EAC11453196E66FD0051FFDB /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC11452196E66FD0051FFDB /* SampleTableViewCell.swift */; };
-		EAC11456196E725F0051FFDB /* Star.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC11455196E725F0051FFDB /* Star.png */; };
+		EAE196081A81D0670004DD3B /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE196071A81D0670004DD3B /* SampleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +39,7 @@
 		EAA0B4141977818800B63DB5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		EAA0B4151977818800B63DB5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		EAA0B4161977818800B63DB5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
-		EAA0B4171977818800B63DB5 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		EAA0B4171977818800B63DB5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		EAA0B4181977818800B63DB5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		EAA0B4191977818800B63DB5 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		EAA0B41A1977818800B63DB5 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
@@ -54,8 +53,7 @@
 		EAC11442196E62680051FFDB /* Sample1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC11447196E62680051FFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC11448196E62680051FFDB /* Sample1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample1Tests.swift; sourceTree = "<group>"; };
-		EAC11452196E66FD0051FFDB /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
-		EAC11455196E725F0051FFDB /* Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star.png; sourceTree = "<group>"; };
+		EAE196071A81D0670004DD3B /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,7 @@
 				EAA0B4141977818800B63DB5 /* 1.jpg */,
 				EAA0B4151977818800B63DB5 /* 2.jpg */,
 				EAA0B4161977818800B63DB5 /* 3.jpg */,
-				EAA0B4171977818800B63DB5 /* 4.png */,
+				EAA0B4171977818800B63DB5 /* 4.jpg */,
 				EAA0B4181977818800B63DB5 /* 5.jpg */,
 				EAA0B4191977818800B63DB5 /* 6.jpg */,
 				EAA0B41A1977818800B63DB5 /* 7.jpg */,
@@ -116,8 +114,8 @@
 				EAC11439196E62680051FFDB /* Main.storyboard */,
 				EAC11435196E62680051FFDB /* AppDelegate.swift */,
 				EAC11437196E62680051FFDB /* ViewController.swift */,
-				EAC11452196E66FD0051FFDB /* SampleTableViewCell.swift */,
 				EA86F472197789790079922B /* DetailViewController.swift */,
+				EAE196071A81D0670004DD3B /* SampleTableViewCell.swift */,
 				EAC1143C196E62680051FFDB /* Images.xcassets */,
 				EAC11433196E62680051FFDB /* Supporting Files */,
 			);
@@ -153,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				EAA0B4131977818800B63DB5 /* images_car */,
-				EAC11455196E725F0051FFDB /* Star.png */,
 			);
 			name = Images;
 			path = Sample1/Images;
@@ -241,9 +238,8 @@
 			files = (
 				EAA0B4231977818800B63DB5 /* 8.jpg in Resources */,
 				EAA0B4211977818800B63DB5 /* 6.jpg in Resources */,
-				EAC11456196E725F0051FFDB /* Star.png in Resources */,
 				EAA0B4201977818800B63DB5 /* 5.jpg in Resources */,
-				EAA0B41F1977818800B63DB5 /* 4.png in Resources */,
+				EAA0B41F1977818800B63DB5 /* 4.jpg in Resources */,
 				EAA0B41C1977818800B63DB5 /* 1.jpg in Resources */,
 				EAA0B41D1977818800B63DB5 /* 2.jpg in Resources */,
 				EAA0B41E1977818800B63DB5 /* 3.jpg in Resources */,
@@ -268,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC11438196E62680051FFDB /* ViewController.swift in Sources */,
-				EAC11453196E66FD0051FFDB /* SampleTableViewCell.swift in Sources */,
+				EAE196081A81D0670004DD3B /* SampleTableViewCell.swift in Sources */,
 				EAC11436196E62680051FFDB /* AppDelegate.swift in Sources */,
 				EA86F473197789790079922B /* DetailViewController.swift in Sources */,
 			);
