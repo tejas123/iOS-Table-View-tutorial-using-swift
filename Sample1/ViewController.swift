@@ -45,12 +45,12 @@ class ViewController: UIViewController
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        var cell : SampleTableViewCell! = tableView.dequeueReusableCellWithIdentifier("Cell") as SampleTableViewCell
+        var cell : SampleTableViewCell! = tableView.dequeueReusableCellWithIdentifier("Cell") as! SampleTableViewCell
         if(cell == nil)
         {
-            cell = NSBundle.mainBundle().loadNibNamed("Cell", owner: self, options: nil)[0] as SampleTableViewCell;
+            cell = NSBundle.mainBundle().loadNibNamed("Cell", owner: self, options: nil)[0] as! SampleTableViewCell;
         }
-        let stringTitle = carName[indexPath.row] as String //NOT NSString
+        let stringTitle = carName[indexPath.row] as! String //NOT NSString
         let strCarName = car[indexPath.row] as String
         cell.lblTitle.text=stringTitle
         cell.ivPhoto.image = UIImage(named: strCarName)
