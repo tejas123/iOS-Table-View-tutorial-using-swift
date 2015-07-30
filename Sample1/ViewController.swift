@@ -50,7 +50,7 @@ class ViewController: UIViewController
         {
             cell = NSBundle.mainBundle().loadNibNamed("Cell", owner: self, options: nil)[0] as! SampleTableViewCell;
         }
-        let stringTitle = carName[indexPath.row] as! String //NOT NSString
+        let stringTitle = carName[indexPath.row] as String //NOT NSString
         let strCarName = car[indexPath.row] as String
         cell.lblTitle.text=stringTitle
         cell.ivPhoto.image = UIImage(named: strCarName)
@@ -61,7 +61,7 @@ class ViewController: UIViewController
     {
         if segue.identifier == "DetailSegue"
         {
-            let detailViewController = ((segue.destinationViewController) as DetailViewController)
+            let detailViewController = ((segue.destinationViewController) as! DetailViewController)
             let indexPath = self.tvCars!.indexPathForSelectedRow()!
             let strImageName = car[indexPath.row]
             detailViewController.strImageName = strImageName
