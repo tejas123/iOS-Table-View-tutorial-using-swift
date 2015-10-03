@@ -62,7 +62,7 @@ class ViewController: UIViewController
         if segue.identifier == "DetailSegue"
         {
             let detailViewController = ((segue.destinationViewController) as! DetailViewController)
-            let indexPath = self.tvCars!.indexPathForSelectedRow()!
+            let indexPath = self.tvCars!.indexPathForSelectedRow!
             let strImageName = car[indexPath.row]
             detailViewController.strImageName = strImageName
             detailViewController.title = strImageName
